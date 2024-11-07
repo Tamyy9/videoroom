@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Room</title>
+</head>
+<body>
+    <h1>Video Room</h1>
+    <button id="joinButton">Join Room</button>
+    <button id="leaveButton" style="display:none">Leave Room</button>
+    <video id="localVideo" autoplay playsinline></video>
+    <video id="remoteVideo" autoplay playsinline></video>
+
+    <!-- Načítanie knižnice Socket.IO a JavaScript súboru -->
+    <script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script>
+    <script src="/static/scripts.js"></script>
+</body>
+</html>
